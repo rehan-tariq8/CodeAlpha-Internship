@@ -1,26 +1,102 @@
-# Raylib C++ Starter Template
+# Sudoku Solver Game 🧩
 
-Raylib C++ Starter Template for Visual Studio Code on Windows.
+A GUI-based **Sudoku Solver Game** developed using **C++** and the **Raylib** graphics library.
+This project allows users to input Sudoku puzzles manually and solve them automatically using the **Backtracking Algorithm**.
 
-This demo project contains a bouncing ball raylib example program.
+---
 
-It works with raylib version 4.5.
-Tested on both Windows 10 and Windows 11.
+## 📌 Features
 
-# Video Tutorial
+* Interactive Sudoku Grid
+* User-friendly GUI using Raylib
+* Manual Number Input
+* Automatic Sudoku Solver
+* Clear Board Functionality
+* Cell Selection Highlighting
+* Real-time Board Updates
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
+---
 
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
+## 🚀 Technologies Used
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="https://www.programmingwithnick.com">My Website</a> | <br>
-</p>
+* C++
+* Raylib Graphics Library
+* Backtracking Algorithm
+* Object-Oriented Programming Concepts
 
+---
+
+## 🧠 Algorithm Used
+
+The project uses the **Backtracking Algorithm** to solve Sudoku puzzles efficiently.
+
+### Steps:
+
+1. Find an empty cell.
+2. Try numbers from 1 to 9.
+3. Check if the number placement is valid.
+4. Recursively solve the remaining board.
+5. Backtrack if no valid number exists.
+
+---
+
+## 🎮 How to Play
+
+1. Run the program.
+2. Click on any empty cell.
+3. Press numbers from **1-9** to input values.
+4. Click the **SOLVE** button to solve the puzzle automatically.
+5. Use **BACKSPACE** or **DELETE** to erase a number.
+6. Click **CLEAR** to reset the board.
+
+---
+
+## 🛠️ Installation & Setup
+
+### Prerequisites
+
+* C++ Compiler (G++)
+* Raylib Library Installed
+
+### Compile the Project
+
+```bash
+g++ main.cpp -o sudoku -lraylib -lopengl32 -lgdi32 -lwinmm
+```
+
+### Run the Program
+
+```bash
+./sudoku
+```
+
+---
+
+## 📷 GUI Components
+
+* Sudoku Grid
+* Solve Button
+* Clear Button
+* Instructions Panel
+* Highlighted Selected Cell
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I improved my understanding of:
+
+* GUI Development
+* Event Handling
+* Recursion
+* Backtracking Algorithms
+* Problem Solving
+* C++ Application Development
+
+---
+
+## 🙌 Acknowledgment
+
+This project was developed as part of my **C++ Programming Internship at CodeAlpha**.
+
+---
